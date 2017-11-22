@@ -1,0 +1,57 @@
+
+
+.container {
+	color: black;
+	background-color: red;
+	height: 300px;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.container2 {
+	color: black;
+	background-color: blue;
+	height: 300px;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.box{
+	background-color: blue;
+	height: 200px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-style: dotted;
+	float: none;
+
+}
+
+.box2{
+	background-color: grey;
+	height: 50px;
+}
+
+.low{
+	background-color: #808080;
+	height: 70px;
+
+}
+footer {
+  padding: 20px;
+  clear: both;
+  background: #ccc;
+  text-align: center;
+  margin-top: 5px;
+}
+
+aside {
+  float: left;
+  width: 33%;
+  height: 200px;
+  padding: 20px;
+  margin-left: 30px;
+  background: #bd793e;
+  border: 1px solid #eee;
+}

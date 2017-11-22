@@ -1,0 +1,274 @@
+html, body {
+	margin: 80px 0 0 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: grey;
+	height: 100%;
+}
+
+body {
+	margin-top: 35px;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+
+/* HEADER */
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	min-height: 80%;
+}
+
+#name {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	background-color: #4aaaa5;
+	text-align: center;
+	float: left;
+	padding: 0 30px 0 30px;
+}
+
+header {
+	z-index: 3;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	width: 100%;
+	margin: 0;
+	border-bottom: 2px solid lightgrey;
+}
+
+header nav{
+	float: right;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+header nav ul {
+	margin: 0 auto;
+}
+
+header nav li {
+	vertical-align: middle;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: left;
+	list-style-type: none;
+	margin: 20px 10px;
+	padding: 10px 10px 10px 0;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+header nav li+li a { 
+	border-left: 1px solid lightgrey;
+}
+
+header nav li a {
+	text-decoration: none;
+	color: #777777;
+	padding-left: 15px;
+}
+ul li:hover a{
+	color: #2C9AB7;
+}
+
+/* CONNECT */
+
+#connect {
+	float: right;
+	background-color: white;
+	width: 270px;
+	border: 1px solid lightgrey;
+}
+
+#connect h2 {
+	margin: 25px;
+	height: 45px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 22px;
+	text-align: center;
+	color: #4aaaa5;
+	border-bottom: 2px solid lightgrey;
+}
+
+#connect .click-icons {
+	margin: 25px;
+}
+
+#connect .social-icons img {
+    display: inline-block;
+    height: 60px;
+    margin: 5px;
+}
+
+/* ABOUT ME */
+
+#about {
+	clear: both;
+	float: left;
+	width: 650px;
+	background-color: white;
+	border: 1px solid lightgrey;
+	margin-bottom: 50px;
+}
+
+#about h1 {
+	margin: 25px 25px 0 25px;
+	height: 60px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	border-bottom: 3px solid lightgrey;
+
+}
+
+#about p {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 175%;
+	margin: 25px;
+
+}
+.profile-img {
+	margin: 25px;
+	float: left;
+}
+
+
+/* PORTFOLIO */
+
+#portfolio {
+	clear: both;
+	float: left;
+	width: 650px;
+	background-color: white;
+	border: 1px solid lightgrey;
+	margin-bottom: 50px;
+}
+
+#portfolio h1 {
+	margin: 25px 25px 10px 25px;
+	height: 60px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	border-bottom: 3px solid lightgrey;
+}
+
+#portfolio .portfolio-img {
+	margin: 20px 25px;
+	display: inline-block;
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 280px;
+}
+
+#portfolio .portfolio-img.inner-border {
+	margin-right: 9px;
+}
+
+#portfolio .portfolio-img img {
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+}
+
+#portfolio .portfolio-img p {
+	z-index: 2;
+	margin: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 15px;
+	text-align: center;
+	padding: 15px;
+	font-size: 24px;
+	background-color: #4aaaa5;
+	color: white;
+}
+
+
+
+/* CONTACT FORM */
+#contact {
+	clear: both;
+	float: left;
+	width: 650px;
+	background-color: white;
+	border: 1px solid lightgrey;
+	margin-bottom: 50px;
+}
+
+#contact h1 {
+	margin: 25px 25px 10px 25px;
+	height: 60px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	border-bottom: 3px solid lightgrey;
+}
+
+#contact form {
+	margin: 25px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+#contact form input[type="text"] {
+	font-size: 12px;
+	border: 1px solid lightgrey;
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0 15px 0;
+}
+
+::-webkit-input-placeholder {
+	color: #909090;
+}
+
+#contact form textarea[name="message"] {
+	width: 100%;
+	height: 200px;
+	border: 1px solid lightgrey;
+	margin: 5px 0 15px 0;
+	padding: 10px;
+}
+
+#contact form input[type=submit] {
+	background-color: #4aaaa5;
+	border: none;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 10px 25px;
+}
+
+
+
+/* FOOTER */
+footer {
+	border-top: 5px solid #4aaaa5;
+	clear: both;
+	background-color: #666666;
+	color: white;
+	text-align: center;
+  	height: 100px;
+  	margin-top: -50px;
+}
+
+footer p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	color: lightgrey;
+	margin: 40px 0;
+}
+
+@media screen and (max-width: 640px) and (min-width: 520px) {
+    
+}@media screen and (max-width: 768px) and (min-width: 641px) {
+    
+}@media screen and (max-width: 980px) and (min-width: 769px) {
+    
+}
