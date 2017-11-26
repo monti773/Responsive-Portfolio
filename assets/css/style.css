@@ -263,7 +263,7 @@ footer p {
 	font-size: 12px;
 	color: lightgrey;
 	margin: 40px 0;
-}
+}/*
 
 @media screen and (max-width: 640px) and (min-width: 520px) {
     
@@ -271,4 +271,42 @@ footer p {
     
 }@media screen and (max-width: 980px) and (min-width: 769px) {
     
+}*/
+
+  #container{
+    width:100%;
+  }
+*/
+#container{
+  width: 300px;
+  margin:0px auto;
+}
+#about-column{
+  width:500px;
+  float:left;
+  
+}
+
+#connect-column{
+  width:300px;
+  float:left;
+  
+}
+
+@media screen and (max-width: 1300px){
+  #container{
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #about column{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px){
+  #container{
+    width:320px;
+  }
 }

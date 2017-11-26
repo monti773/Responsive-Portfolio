@@ -1,49 +1,55 @@
+
 <!DOCTYPE html>
-<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width = device-width, initial-scale = 1">
-	<title>MM Contact</title>
-
-	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
-
-</head>
+	<meta charset="utf-8">
+	<title>Mike Monti</title>	
+	<link rel="stylesheet" type ="text/css" href="assets/css/style.css"/></head>
 <body>
-
-<div class="container">
-
-		<div class="page-header">
-			<h1>Contact</h1>
+	
+	<header>
+		<div class="container-fluid">
+			<div id="name"><h1>Mike Monti</h1></div>
+			<nav>
+				<ul>
+					<li><a class="about" href="index.html" target="_blank">About</a></li>
+					<li><a class="porfolio" href="portfolio.html" target="_blank">Portfolio</a></li>
+					<li><a class="contact" href="contact.html" target="_blank">Contact</a></li>
+				</ul>
+			</nav>
 		</div>
+	</header>
 
-		
-
-
-		<div class="jumbotron">
-			<h4>About ME</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat est ipsum quod sapiente laudantium, rem. Itaque fugiat quo harum voluptates 	officia! Similique nesciunt rerum nobis molestiae delectus harum repellat, voluptates?
-			</p>
-		</div>
-
-		<div class="row">
-		
-			<div class="col-lg-3 col-md-3 col-sm-12">
-				<h4>contact with me</h4>
+	<div class="container-fluid">
+		<main>
+			<div id="contact">
+				<h1>Contact</h1>
+				<form>
+					Name<br>
+  					<input type="text" name="name" placeholder="name"><br>
+  					Email<br>
+  					<input type="text" name="email" placeholder="example@yahoo.com"><br>
+  					Message<br>
+  					<textarea name="message"></textarea><br>
+  					<input type="submit" value="Submit">
+				</form>
 			</div>
-
-			<div class="col-lg-3 col-md-3 col-sm-1	2">
-
-				<a href="#" class="btn btn-default btn-lg" role="button">Link1</a>
-				<a href="#" class="btn btn-default btn-lg" role="button">Link2</a>
-				<a href="#" class="btn btn-default btn-lg" role="button">Link3</a>
+		</main>
+		
+		<div id="connect">
+			<h2>Connect with Me</h2>
+			<div class="click-icons">
+				
+				
+				<a href="https://www.github.com"><img src="image/gitCat.png" alt="github icon" height="70"></a>
+				
+				<a href="https://www.linkedin.com"><img src="image/linked.png" alt="linkedin icon" height="70"></a>
+				<a href="https://www.stackoverflow.com"><img src="image/chitown.jpeg" alt="stackoverflow icon" height="70"></a>
 			</div>
-		
 		</div>
-		
 	</div>
 
+	<footer>
+		<p>&copy; Copyright 2017 Monti</p>
+	</footer>
 </body>
 </html>
